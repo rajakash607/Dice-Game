@@ -7,11 +7,11 @@ var imagesouurce2 ="images/dice" + imageno2 + ".png";
 document.querySelectorAll("img")[1].setAttribute("src", imagesouurce2);
 
 if (imageno<imageno2) {
-    document.getElementsByTagName("h1")[0].innerHTML = "player2 wins";
+    document.getElementsByTagName("h1")[0].innerHTML = "REFRESH PLZ! player2 wins";
 }
 else if (imageno==imageno2) {
     document.getElementsByTagName("h1")[0].innerHTML = "Draw, refresh again";
 }
 else{
-    document.getElementsByTagName("h1")[0].innerHTML = "player1 wins";
+    document.getElementsByTagName("h1")[0].innerHTML = "REFRESH PLZ!  player1 wins";
 }
